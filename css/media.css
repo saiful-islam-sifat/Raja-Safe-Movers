@@ -1,0 +1,118 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px){
+    .menu ul li a::after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0px;
+        background-color:#891A3B;
+        transition: 0.3s all;
+     }
+    .menu ul li :hover {
+        cursor: pointer;
+        color: #a16c7c;
+        
+    
+    }
+    .t-center {
+        text-align: center !important;
+        
+    }
+    .p-t {
+        padding-top: 10px;
+    }
+    .font-custom {
+        font-size: 34px;
+    }
+    .slider-conatant {
+        padding: 125px 0 90px 0;
+    }
+    .custom-p {
+        color: ghostwhite;
+        font-weight: 600;
+    }
+    .mt-25 {
+        margin-top: 25px;
+    }
+}
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px){
+    .menu ul li a::after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0px;
+        background-color:#891A3B;
+        transition: 0.3s all;
+     }
+    .menu ul li :hover {
+        cursor: pointer;
+        color: #a16c7c;
+        
+    
+    }
+    .t-center {
+        text-align: center !important;
+        
+    }
+    .p-t {
+        padding-top: 10px;
+    }
+    .slider-conatant {
+        margin-top: 172px;
+    }
+    .custom-p {
+        color: ghostwhite;
+        font-weight: 600;
+    }
+    .mt-25 {
+        margin-top: 25px;
+    }
+    .slider-conatant h1 {
+        font-size: 36px;
+    }
+    
+} 
+
+
+
+
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px){
+    .menu ul li a::after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0px;
+        background-color:#891A3B;
+        transition: 0.3s all;
+     }
+    .menu ul li :hover {
+        cursor: pointer;
+        color: #a16c7c;
+        
+    
+    }
+    .t-center {
+        text-align: center !important;
+        
+    }
+    .p-t {
+        padding-top: 10px;
+    }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px){}
+
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px){}
